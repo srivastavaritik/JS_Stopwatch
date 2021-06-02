@@ -1,0 +1,30 @@
+button {
+    padding: 0 10px;
+    height: 50px;
+    width: 200px;
+    max-width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    background-color: #27ae61;
+    border: 1px solid #27ae61;
+    transition: 0.5s;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    min-width: 189px;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: #034732;
+    border: 1px solid #034732;
+    transition: 1s;
+}
+
+button:focus {
+    outline: 0;
+}
